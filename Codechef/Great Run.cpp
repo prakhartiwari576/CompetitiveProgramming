@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-    ll int t,n,k,i,j,max,sum;
-    cin>>t;
-    while(t--)
+    ll int p,n,k,i,j,max,sum;
+    cin>>p;
+    while(p--)
     {
         sum=0,max=0;
         cin>>n>>k;
