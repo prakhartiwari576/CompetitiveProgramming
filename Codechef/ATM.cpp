@@ -1,26 +1,25 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
  
 int main()
 {
     int a;
     float b,c;
-    scanf("%d%f",&a,&b);
+    cin>>a>>b;
     c=b-a-0.50;
     if (a%5==0)
     {
         if (c>0)
         {
-            printf ("%0.2f",c);
+            cout<<c;
         }
         else
         {
-        printf ("%0.2f",b);
+     cout<<b;
         }
     }
     else
     {
-        printf ("%0.2f",b);
+       cout<<b;
     }
     return 0;
 }
